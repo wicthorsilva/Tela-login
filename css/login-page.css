@@ -1,0 +1,118 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.div-left, .div-rigth {
+    display: inline-block;
+}
+
+.div-principal{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.div-left {
+    
+    background-color: rgb(2, 70, 70);
+    width: 70%;
+    height: 100%;
+}
+
+.div-rigth {
+    position: absolute;
+    margin:0px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+
+#poster-login {
+    
+    width: 100%;
+    height: 100%;
+}
+
+#ctrllab-logo {
+    width: 180px;
+    height: 120px;
+    margin-top: 6%;
+    margin-left: 10%;
+    
+}
+
+#veritas-logo {
+    width: 110px;
+    height: 140px;
+    margin-left: 30%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.titulos-h2h3 {
+    margin-top: 30%;
+    
+    
+    color: rgb(255, 117, 08);
+}
+h2{
+    font-size: 35px;
+    margin-left: 40%;
+}
+#ctrl{
+    color: rgb(0, 80, 160);
+}
+
+h3 {
+    margin-left: 45%;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#form-control-input{
+width: 315px;   
+}
+
+#esqueceu-senha{
+    margin-right: 23%;
+}
+
+
+
+::placeholder {
+    color: rgb(255, 117, 08);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submit {
+    height: 40px;
+    width: 90px;
+    margin-left: 25%;
+    background-color: rgb(255, 117, 08);
+    color: white;
+    border: 0vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(237, 116, 23);
+}
+
+
+.nologin{
+    font-size: 14px;
+    color:rgba(0, 80, 160, 0.83) ;
+    cursor: pointer;
+}
